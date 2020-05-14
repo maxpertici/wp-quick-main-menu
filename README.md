@@ -1,5 +1,5 @@
 
-# Quick Main Menu for Gutenberg
+# WP Quick Main Menu
 License : GPLv2
 License URI : http://www.gnu.org/licenses/gpl-2.0.html
 

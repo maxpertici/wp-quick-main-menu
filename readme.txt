@@ -1,4 +1,4 @@
-=== Quick Main Menu for Gutenberg ===
+=== WP Quick Main Menu ===
 Contributors: maxpertici
 Donate link: 
 Tags: Gutenberg, UI,
