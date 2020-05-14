@@ -1,0 +1,29 @@
+
+body.js.is-fullscreen-mode.wp-qmm-enable #adminmenumain{
+    display: block;
+
+    margin-top: 32px;
+
+    width: 160px;
+    height: 100vh;
+
+}
+
+
+body.js.is-fullscreen-mode.wp-qmm-enable #adminmenuback,
+body.js.is-fullscreen-mode.wp-qmm-enable #adminmenuwrap{
+    transform : translateX(-160px);
+
+    transition: all 0.3s;
+}
+
+
+body.js.is-fullscreen-mode.wp-qmm-enable:not(.wp-qmm-open) #adminmenuwrap .wp-submenu{
+    opacity: 0 ;
+}
+
+
+body.js.is-fullscreen-mode.wp-qmm-enable.wp-qmm-open #adminmenuback,
+body.js.is-fullscreen-mode.wp-qmm-enable.wp-qmm-open #adminmenuwrap{
+    transform : translateX(0px);
+}
