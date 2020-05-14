@@ -2,7 +2,7 @@
 /*
 Plugin Name: Quick Main Menu for Gutenberg
 Plugin URI: https://m.pertici.fr
-Description: Get main menu when editing post with gutenberg fullscreen
+Description: Keep access to WordPress main menu when editing post with gutenberg fullscreen
 Author: Maxime Pertici
 Version: 0.1
 Author URI: https://m.pertici.fr
