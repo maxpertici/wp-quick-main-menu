@@ -19,5 +19,8 @@ Hightlight your blocks and stop clicking everywhere to find them.
 
 == Changelog ==
 
+= 0.2.0 =
+* Change the name : WP Quick Main Menu -> WP Quick Amidn Menu
+
 = 0.1.0 =
 * Drop
