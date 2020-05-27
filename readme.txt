@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 == Description ==
-Hightlight your blocks and stop clicking everywhere to find them.
+Keep access to WordPress main menu when editing post with gutenberg fullscreen.
 
 
 == Installation ==
