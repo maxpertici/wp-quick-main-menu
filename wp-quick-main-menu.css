@@ -1,29 +1,81 @@
 
-body.js.is-fullscreen-mode.wp-qam-enable #adminmenumain{
-    display: block;
+/* admin menu */
 
-    margin-top: 32px;
+@media(min-width:783px){
 
-    width: 160px;
-    height: 100vh;
+    body.js.is-fullscreen-mode.wp-qamm-enable #adminmenumain{
+        display: block;
+        width: 160px;
+        height: 100vh;
+    }
 
+
+    body.js.is-fullscreen-mode.wp-qamm-enable #adminmenuback,
+    body.js.is-fullscreen-mode.wp-qamm-enable #adminmenuwrap{
+        transform : translateX(-160px);
+        transition: all 0.3s;
+    }
+
+    body.js.is-fullscreen-mode.wp-qamm-enable:not(.wp-qamm-open) #adminmenuwrap .wp-submenu{
+        opacity: 0 ;
+    }
+
+    body.js.is-fullscreen-mode.wp-qamm-enable.wp-qamm-open #adminmenuback,
+    body.js.is-fullscreen-mode.wp-qamm-enable.wp-qamm-open #adminmenuwrap{
+        transform : translateX(0px);
+    }
+}
+/* reponsive */
+@media (min-width:601px) and (max-width:782px){
+
+    body.js.is-fullscreen-mode.wp-qamm-enable #adminmenuwrap{
+        overflow-y: scroll;
+        height: 100vh;
+        scrollbar-width: none;
+    }
+
+    body.js.is-fullscreen-mode.wp-qamm-enable #adminmenu{
+        position: relative;
+        padding-bottom: 120px;
+    }
+}
+    
+
+@media(min-width:601px){
+
+    /*
+    body.js.is-fullscreen-mode.wp-qamm-enable #adminmenumain{
+        margin-top: 46px;
+    }
+    */
+}
+@media(min-width:783px){
+    body.js.is-fullscreen-mode.wp-qamm-enable #adminmenumain{
+        margin-top: 32px;
+    }
+}
+
+/* admin bar */
+
+@media(min-width:601px){
+
+    body.js.is-fullscreen-mode.wp-qamm-enable .interface-interface-skeleton{
+        top : 46px;
+    }
+    body.js.is-fullscreen-mode.wp-qamm-enable #wpadminbar{
+        display: block;
+    }    
 }
 
 
-body.js.is-fullscreen-mode.wp-qam-enable #adminmenuback,
-body.js.is-fullscreen-mode.wp-qam-enable #adminmenuwrap{
-    transform : translateX(-160px);
+@media(min-width:783px){
 
-    transition: all 0.3s;
+    body.js.is-fullscreen-mode.wp-qamm-enable .interface-interface-skeleton{
+        top : 32px;
+    }
+    body.js.is-fullscreen-mode.wp-qamm-enable #wpadminbar{
+        display: block;
+    }    
 }
 
 
-body.js.is-fullscreen-mode.wp-qam-enable:not(.wp-qam-open) #adminmenuwrap .wp-submenu{
-    opacity: 0 ;
-}
-
-
-body.js.is-fullscreen-mode.wp-qam-enable.wp-qam-open #adminmenuback,
-body.js.is-fullscreen-mode.wp-qam-enable.wp-qam-open #adminmenuwrap{
-    transform : translateX(0px);
-}

@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"Project-Id-Version: Quick Main Menu for Gutenberg\n"
-"POT-Creation-Date: 2020-05-14 08:44+0200\n"
-"PO-Revision-Date: 2020-05-14 08:44+0200\n"
+"Project-Id-Version: WP Quick Admin Main Menu\n"
+"POT-Creation-Date: 2020-05-27 22:48+0200\n"
+"PO-Revision-Date: 2020-05-27 22:48+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -21,20 +21,23 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #. Plugin Name of the plugin/theme
-msgid "Quick Main Menu for Gutenberg"
+msgid "WP Quick Admin Main Menu"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-#. Author URI of the plugin/theme
-msgid "https://m.pertici.fr"
+msgid "https://m.pertici.fr/wp-quick-admin-main-menu"
 msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Keep access to WordPress main menu when editing post with gutenberg "
-"fullscreen"
+"Keep access to WordPress admin main menu when editing post with Gutenberg "
+"fullscreen."
 msgstr ""
 
 #. Author of the plugin/theme
 msgid "Maxime Pertici"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://m.pertici.fr"
 msgstr ""
