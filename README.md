@@ -14,6 +14,7 @@ Keep access to WordPress main menu when editing post with gutenberg fullscreen.
 
 ### 0.4.0
 * Toolbar fix
+* po/mo support
 
 ### 0.3.0
 * Refresh plugin's name : WP Quick Admin Main Menu

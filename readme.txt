@@ -21,6 +21,7 @@ Keep access to WordPress admin main menu when editing post with Gutenberg fullsc
 
 = 0.4.0 =
 * Toolbar fix
+* po/mo support
 
 = 0.3.0 =
 * Refresh plugin's name : WP Quick Admin Main Menu
