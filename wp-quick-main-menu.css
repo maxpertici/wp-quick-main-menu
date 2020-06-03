@@ -59,6 +59,7 @@
 
 @media(min-width:601px){
     
+    body.js.is-fullscreen-mode.wp-qamm-enable .edit-post-layout.is-mode-visual.interface-interface-skeleton,
     body.js.is-fullscreen-mode.wp-qamm-enable .edit-post-layout.is-mode-visual.block-editor-editor-skeleton{
 	    top : 46px;
 	}
@@ -70,7 +71,8 @@
 
 
 @media(min-width:783px){
-
+   
+    body.js.is-fullscreen-mode.wp-qamm-enable .edit-post-layout.is-mode-visual.interface-interface-skeleton,
     body.js.is-fullscreen-mode.wp-qamm-enable .edit-post-layout.is-mode-visual.block-editor-editor-skeleton{
 	    top : 32px;
     }
