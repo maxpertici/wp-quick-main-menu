@@ -1,11 +1,9 @@
-#, fuzzy
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Project-Id-Version: WP Quick Admin Main Menu\n"
-"POT-Creation-Date: 2020-06-03 21:50+0200\n"
-"PO-Revision-Date: 2020-05-27 22:48+0200\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2020-06-03 21:51+0200\n"
+"PO-Revision-Date: 2020-06-03 21:52+0200\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,30 +12,34 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: wp-quick-main-menu.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
-"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: fr\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #. Plugin Name of the plugin/theme
 msgid "WP Quick Admin Main Menu"
-msgstr ""
+msgstr "WP Quick Admin Main Menu"
 
 #. Plugin URI of the plugin/theme
 msgid "https://m.pertici.fr/wp-quick-admin-main-menu"
-msgstr ""
+msgstr "https://m.pertici.fr/wp-quick-admin-main-menu"
 
 #. Description of the plugin/theme
 msgid ""
 "Keep access to WordPress admin main menu when editing post with Gutenberg "
 "fullscreen."
 msgstr ""
+"Gardez l’accès au menu principal de WordPress quand vous modifiez une "
+"publication avec Gutenberg en plein écran."
 
 #. Author of the plugin/theme
 msgid "Maxime Pertici"
-msgstr ""
+msgstr "Maxime Pertici"
 
 #. Author URI of the plugin/theme
 msgid "https://m.pertici.fr"
-msgstr ""
+msgstr "https://m.pertici.fr"

@@ -16,6 +16,16 @@ Copyright 2020 WP Quick Menu
 
 defined( 'ABSPATH' ) or	die();
 
+function wp_qamm_plugin_load(){
+	// Translations
+	$locale = get_locale();
+	$locale = apply_filters( 'plugin_locale', $locale, 'wp-qamm' );
+	load_textdomain( 'wp-qamm', WP_LANG_DIR . '/plugins/wp-qamm-' . $locale . '.mo' );
+	load_plugin_textdomain( 'wp-qamm', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+}
+
+add_action( 'plugins_loaded', 'wp_qamm_plugin_load' );
+
 
 function wp_qamm_script(){
 
