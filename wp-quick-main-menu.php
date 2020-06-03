@@ -4,12 +4,12 @@ Plugin Name: WP Quick Admin Main Menu
 Plugin URI: https://m.pertici.fr/wp-quick-admin-main-menu
 Description: Keep access to WordPress admin main menu when editing post with Gutenberg fullscreen.
 Author: Maxime Pertici
-Version: 0.3
+Version: 0.4
 Author URI: https://m.pertici.fr
 Contributors:
 License:      GPLv2
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain:  wp-qmm
+Text Domain:  wp-qamm
 Domain Path:  /languages
 Copyright 2020 WP Quick Menu
 */

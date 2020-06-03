@@ -58,10 +58,11 @@
 /* admin bar */
 
 @media(min-width:601px){
+    
+    body.js.is-fullscreen-mode.wp-qamm-enable .edit-post-layout.is-mode-visual.block-editor-editor-skeleton{
+	    top : 46px;
+	}
 
-    body.js.is-fullscreen-mode.wp-qamm-enable .interface-interface-skeleton{
-        top : 46px;
-    }
     body.js.is-fullscreen-mode.wp-qamm-enable #wpadminbar{
         display: block;
     }    
@@ -70,9 +71,10 @@
 
 @media(min-width:783px){
 
-    body.js.is-fullscreen-mode.wp-qamm-enable .interface-interface-skeleton{
-        top : 32px;
+    body.js.is-fullscreen-mode.wp-qamm-enable .edit-post-layout.is-mode-visual.block-editor-editor-skeleton{
+	    top : 32px;
     }
+    
     body.js.is-fullscreen-mode.wp-qamm-enable #wpadminbar{
         display: block;
     }    
