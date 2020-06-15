@@ -55,6 +55,7 @@
     }
 }
 
+
 /* admin bar */
 
 @media(min-width:601px){
@@ -83,3 +84,11 @@
 }
 
 
+
+
+/* publish-panel */
+@media(min-width:783px){
+    body.is-fullscreen-mode.wp-qamm-enable .edit-post-layout .editor-post-publish-panel{
+        margin-top: 32px;
+    }
+}

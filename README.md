@@ -12,6 +12,9 @@ Keep access to WordPress main menu when editing post with gutenberg fullscreen.
 
 ## Changelog
 
+### 0.4.1
+* Fix publish panel position
+
 ### 0.4.0
 * Toolbar fix
 * po/mo support

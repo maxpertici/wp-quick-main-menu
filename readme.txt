@@ -3,8 +3,8 @@ Contributors: maxpertici
 Donate link: 
 Tags: Fullscreen, Admin, Menu
 Requires at least: 5.4.1
-Tested up to: 5.4.1
-Stable tag: 0.4
+Tested up to: 5.4.2
+Stable tag: 0.4.1
 Requires PHP: 7.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -18,6 +18,9 @@ Keep access to WordPress admin main menu when editing post with Gutenberg fullsc
 1. Install the plugin and activate. That's all.
 
 == Changelog ==
+
+= 0.4.1 =
+* Fix publish panel position
 
 = 0.4.0 =
 * Toolbar fix
