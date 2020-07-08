@@ -4,7 +4,7 @@ Plugin Name: WP Quick Admin Main Menu
 Plugin URI: https://m.pertici.fr/wp-quick-admin-main-menu
 Description: Keep access to WordPress admin main menu when editing post with Gutenberg fullscreen.
 Author: Maxime Pertici
-Version: 0.4.1
+Version: 0.5.0
 Author URI: https://m.pertici.fr
 Contributors:
 License:      GPLv2
@@ -33,24 +33,37 @@ function wp_qamm_script(){
 	$script =
 		"jQuery( window ).load(function() {
 
-			const isFullscreenMode = wp.data.select( 'core/edit-post' ).isFeatureActive( 'fullscreenMode' );
+			// launch
+			jQuery('body').addClass('wp-qamm-enable');
 			
-			if ( isFullscreenMode ) {
+			function checkForChanges(){
 
-				jQuery('body').addClass('wp-qamm-enable');
-				
-				jQuery('.edit-post-header .components-button.edit-post-fullscreen-mode-close').hoverIntent(
-					function(){ jQuery('body').addClass('wp-qamm-open'); }, 100,
-					function(){ jQuery('body').removeClass('wp-qamm-open'); }
-				);
+				// console.log(jQuery('body').hasClass('is-fullscreen-mode'));
 
-				jQuery('#adminmenumain').hover(
-					function(){ jQuery('body').addClass('wp-qamm-open'); },
-					function(){ jQuery('body').removeClass('wp-qamm-open'); }
-				);
+				if( jQuery('body').hasClass('is-fullscreen-mode') ){
 
+					jQuery('.edit-post-header .components-button.edit-post-fullscreen-mode-close').hoverIntent(
+						function(){ jQuery('body').addClass('wp-qamm-open'); }, 100,
+						function(){ jQuery('body').removeClass('wp-qamm-open'); }
+					);
+
+					jQuery('#adminmenumain').hover(
+						function(){ jQuery('body').addClass('wp-qamm-open'); },
+						function(){ jQuery('body').removeClass('wp-qamm-open'); }
+					);
+					
+					setTimeout( checkForChanges, 500 );
+
+				}else{
+					
+					jQuery('.edit-post-header .components-button.edit-post-fullscreen-mode-close').unbind();
+					jQuery('#adminmenumain').unbind();
+
+					setTimeout( checkForChanges, 500 );
+				}
 			}
 
+			jQuery( checkForChanges) ;
 						
 		});";
 

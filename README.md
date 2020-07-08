@@ -12,6 +12,9 @@ Keep access to WordPress main menu when editing post with gutenberg fullscreen.
 
 ## Changelog
 
+### 0.5.0
+* Now you change change fullscreen mode settings during post editing
+
 ### 0.4.1
 * Fix publish panel position
 
